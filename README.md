@@ -4,8 +4,8 @@ This project is a Telegram bot that converts text to and from Morse code and can
 
 ## Project Structure
 
-- `bot.py`: Main bot script (contains the Telegram client initialization, command handlers, and `generate_morse_audio`).
-- `morse.py`: Contains `encrypt` and `decrypt` functions for Morse code conversion.
+- `bot.py`: Main bot script (contains the Telegram client initialization, command handlers, and `generate_morse_audio` which uses pydub).
+- `morse.py`: Contains `encrypt` and `decrypt` functions for Morse code conversion credit to Geeks4Geeks for this code. [Source](https://www.geeksforgeeks.org/morse-code-translator-python/).
 - `requirements.txt`: Project dependencies.
 - `.env`: Environment variables (API credentials).
 - `user_configs.json`: Stores user-specific configuration for generating audio.
